@@ -2,28 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Test Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media screen and (min-width: 480px) {
+    body {
+      background-color: #eee;
+    }
+    .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > li {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  }
+    </style>
   </head>
 
-  <body>
+  <body style="text-align: center;">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <header id="header">
-      <img id="header-img" src="logo.png">
+    <header id="header" style="display: flex;">
+      <img id="header-img"  style="    width: 77px;height: 77px;" src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-1.2.1&w=1000&q=80">
+      
       <nav id="nav-bar">
         <ul>
-          <li><a href="#"class="nav-link">Features</a></li>
-          <li><a href="#" class="nav-link">How It Works</a></li>
-          <li><a href="#" class="nav-link">Pricing</a></li>
+          <li><a href="#a1"class="nav-link">Features</a></li>
+          <li><a href="#a2" class="nav-link">How It Works</a></li>
+          <li><a href="#a2" class="nav-link">Pricing</a></li>
         </ul>
       </nav>
     </header>
 <div>
-  <video id="video"></video>
-  <form id="form">
-     <input id="email" type="text" email="enter your email">
+  <video id="video">
+    <source src="" type="video/mp4">
+  </video>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+     <input id="email" type="email" pattern="[A-Za-z]{3}" placeholder="enter your email">
+     <input id="submit" type="submit" value="Subscribe" class="btn" ></input>
   </form>
+  
+  <div id="a1"></div>
+  <div id="a2"></div>
+  <div id="a3"></div>
 
 </div>
     <!--
